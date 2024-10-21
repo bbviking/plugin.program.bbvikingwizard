@@ -98,9 +98,9 @@ AUTOINSTALL = 'Yes'
 # Addon ID for the repository
 REPOID = 'repository.bbviking'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML = 'https://raw.githubusercontent.com/bbviking/repository.bbviking/master/repo/zips/repository.bbviking/addons.xml'
+REPOADDONXML = 'https://raw.githubusercontent.com/bbviking/bbviking.github.io/master/repo/zips/repository.bbviking/addons.xml'
 # Url to folder zip is located in
-REPOZIPURL = 'https://raw.githubusercontent.com/bbviking/repository.bbviking/master/repo/zips/repository.bbviking'
+REPOZIPURL = 'https://raw.githubusercontent.com/bbviking/bbviking.github.io/master/repo/zips/repository.bbviking'
 #########################################################
 
 #########################################################
