@@ -13,11 +13,11 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 #        User Edit Variables                            #
 #########################################################
-ADDONTITLE = '[COLOR limegreen][B]Open[/B][/COLOR]Wizard'
-BUILDERNAME = 'OpenWizard'
-EXCLUDES = [ADDON_ID, 'repository.openwizard']
+ADDONTITLE = 'Bbviking Wizard'
+BUILDERNAME = 'bbviking'
+EXCLUDES = [ADDON_ID, 'repository.bbviking']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program.openwizard/wiki/Installing-Builds
-BUILDFILE = 'http://'
+BUILDFILE = 'https://raw.githubusercontent.com/bbviking/plugin.program.bbvikingwizard/master/resources/text/builds.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
@@ -96,11 +96,11 @@ AUTOUPDATE = 'Yes'
 # Enable Auto Install 'Yes' or 'No'
 AUTOINSTALL = 'Yes'
 # Addon ID for the repository
-REPOID = 'repository.openwizard'
+REPOID = 'repository.bbviking'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML = 'https://raw.githubusercontent.com/drinfernoo/repository.openwizard/master/zips/addons.xml'
+REPOADDONXML = 'https://raw.githubusercontent.com/bbviking/repository.bbviking/master/repo/zips/repository.bbviking/addons.xml'
 # Url to folder zip is located in
-REPOZIPURL = 'https://raw.githubusercontent.com/drinfernoo/repository.openwizard/master/zips/repository.openwizard/'
+REPOZIPURL = 'https://raw.githubusercontent.com/bbviking/repository.bbviking/master/repo/zips/repository.bbviking'
 #########################################################
 
 #########################################################
@@ -109,7 +109,7 @@ REPOZIPURL = 'https://raw.githubusercontent.com/drinfernoo/repository.openwizard
 # Enable Notification screen Yes or No
 ENABLE = 'Yes'
 # Url to notification file
-NOTIFICATION = 'http://'
+NOTIFICATION = 'https://raw.githubusercontent.com/bbviking/plugin.program.bbvikingwizard/master/resources/text/notify.txt'
 # Use either 'Text' or 'Image'
 HEADERTYPE = 'Text'
 # Font size of header
